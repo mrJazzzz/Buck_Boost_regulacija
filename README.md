@@ -35,14 +35,17 @@ Za svaki metod, prate se performanse regulisanog sistema u sledećim konfiguraci
   na promenu ove veličine
   
 Na kraju je sprovedena komparativna analiza između najboljeg
-linearnog regulatora i nelinearnih načina regulacije.
-<figure>
-  <img src="path/to/your/image.jpg" alt="Description of the image" style="width:100%">
-  <figcaption>This is the caption for the image.</figcaption>
+linearnog regulatora i nelinearnih metoda regulacije. Na sledećim slikama prikazano je par detalja
+vremenskog odziva za sve kontrolere, a za različite vrednosti induktivnosti kalema:
+
+<figure style="text-align: center;">
+  <img src="Blizi_prikaz_slika/Poremecaj.png" alt="Description of the image" style="width:50%">
+  <figcaption>Uporedni prikaz rada kontrolera kod pojave poremećaja.</figcaption>
 </figure>
-<figure>
-  <img src="path/to/your/image.jpg" alt="Description of the image" style="width:100%">
-  <figcaption>This is the caption for the image.</figcaption>
+
+<figure style="text-align: center;">
+  <img src="Blizi_prikaz_slika/Pozitivan_step.png" alt="Description of the image" style="width:50%">
+  <figcaption>Uporedni prikaz rada kontrolera kod pozitivnog stepa reference.</figcaption>
 </figure>
 
 ---
@@ -68,7 +71,8 @@ Na početku je, kao i u prvom projektu, detaljno opisan sistem i model sistema n
 Zatim su predstavljeni PI regulator, kao i dva nelinearna regulatora
 iz prethodnog projekta, u nešto manje detaljnom svetlu nego u prethodnim projektima. Radi se o
 regulatorima podešenim na potpuno isti način kao u prethodnim projektima, te se za više detalja
-može vratiti na njih. Na kraju je sprovedena komparativna analiza 
+može vratiti na njih. Na kraju je sprovedena komparativna analiza i detaljno je diskutovano ponašanje
+svakog kontrolera u odnosu na druge u svim situacijama tokom cele sekvence pobuda.
 
 ---
 
